@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.875rem;
+    z-index: 99;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 0.9rem;
+    border-radius: 20px;
+    box-shadow:0px 0px 10px rgba(255, 255, 255, 0.5);  
+}  
+#myBtn:hover {
+    background-color:rgb(150, 0, 0);
+}
+/*----- HEADER -----*/
+.header {
+    width: 100%;
+    height: 11rem;
+}
+.image img {
+    margin-top: 1.25rem;
+    margin-left: 6.25rem;
+    width: 10rem;
+    position: relative;
+    animation: mymove 2s;
+    animation-timing-function: ease-out;
+}
+@keyframes mymove {
+    from {left: -17.5rem;}
+    to {left: 11.25rem;}
+}
+/*----- NAV -----*/
+.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.6rem;
+    overflow: hidden;
+    display: column;
+    justify-content: flex-end;  
+}
+.sidenav {
+    float: right;
+    margin-top: -75px;
+    display: flex;
+    justify-content: space-around;
+}
+.sidenav a {
+    color: white;
+    background-color: blue;
+    padding: 0.6rem;
+    padding-right: 4rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    margin-right: -20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+.sidenav :hover {
+    background-color: rgb(150, 0, 0);
+}
+/*----- NAV-ENDING -----*/
+/*----- HEADER-ENDING -----*/
+
+/*----- CONTENT -----*/
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    height: 15rem;
+    width: 100%;
+}
+#section1 h1 {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 3rem;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+#section1 h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 3rem;
+}
+/*----- WORK -----*/
+
+.work {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+#site1 {
+    width: 30rem;
+    margin-right: 5rem;
+    margin-left: -5rem;
+}
+#site1 img {
+    width: 100%;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 255, 0.3), 0 0.375rem 1.25rem 0 rgba(0, 0, 255, 0.3);
+}
+.message h1 {
+    color: blue;
+}
+#site2 {
+    width: 30rem;
+    margin-right: 5rem;
+    margin-left: -8rem;
+}
+#site2 img {
+    width: 100%;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 255, 0.3), 0 0.375rem 1.25rem 0 rgba(0, 0, 255, 0.3);
+}
+.button {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+.button:hover {
+    background-color: rgb(150, 0, 0);
+}
+
+/*----- END-OF-WORK -----*/
+/*----- CONTENT-ENDING -----*/
+
+/*----- FOOTER -----*/
+
+footer {
+    width: 100%;
+    height: 12.5rem;
+    position: relative;
+    bottom: 0;
+    background-color: blue;
+    margin-top: 3rem;
+}
+footer p {
+    text-align: center;
+    font-size: 1.125rem;
+    color:white;
+    margin-bottom: 3.125rem;
+}
+.footer {
+    display: grid;
+    justify-content: center;
+}
+.socials {
+    margin: 1.8rem;
+}
+.fa {
+    padding: 0.9rem;
+    font-size: 1.8rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.313rem 0.938rem;
+}
+.socials :hover {
+    background-color: rgb(150, 0, 0);
+}
+.fa-twitter {
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    box-shadow:0px 0px 0.6rem rgba(255, 255, 255, 0.5);  
+}
+.fa-linkedin {
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    box-shadow:0px 0px 0.6rem rgba(255, 255, 255, 0.5);  
+}
+.fa-instagram {
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    box-shadow:0px 0px 0.6rem rgba(255, 255, 255, 0.5);  
+}
+.fa-facebook {
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    box-shadow:0px 0px 0.9rem rgba(255, 255, 255, 0.5);  
+}
+/*----- END-OF-FOOTER -----*/
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+
+/*----- RESPONSIIVE-FOR-MOBILE -----*/
+
+@media screen and (max-width: 400px) {
+
+    #myBtn {
+        font-size: 8px;
+        box-shadow:0px 0px 10px rgba(255, 255, 255, 0.5);  
+        padding: 8px;
+    }
+    
+    /*----- HEADER -----*/
+    
+    .header {
+        height: 100px;
+    }
+    .header img {
+        width: 60px;
+        margin-left: 10px;
+        position: relative;
+    }
+    @keyframes mymove {
+        from {left: -280px;}
+        to {left: 150px;}
+    }
+    /*----- HEADER-ENDING -----*/
+    /*----- NAV -----*/
+
+    .sidenav {
+        margin-top: -3.75rem;
+    }
+    #mySidenav a {
+        position: absolute;
+        left: -4rem;
+        transition: 0.3s;
+        padding: 5px;
+        padding-right: 0.001rem;
+        width: 100px;
+        text-decoration: none;
+        font-size: 8px;
+        color: blue;
+        border-radius: 0 5px 5px 0;
+    }
+    #mySidenav a:hover {
+        color: white;
+        background-color: rgb(150, 0, 0);
+        left: 0;
+    }
+    #home {
+        margin-top: 90px;
+        background-color: rgb(255, 255, 255);
+    }
+    #about {
+        margin-top: 120px;
+        background-color: rgb(255, 255, 255);
+    } 
+    #work {
+        margin-top: 7.375rem;
+        background-color: rgb(255, 255, 255);
+    }
+    #contact {
+        margin-top: 180px;
+        background-color: rgb(255, 255, 255);
+    }
+    #section1 {
+        height: 6rem;
+    }
+    #section1 h1 {
+        margin-top: -1.6rem;
+        font-size: 2rem;
+    }
+    /*----- NAV-ENDING -----*/
+    /*----- CONTENT -----*/
+    .work {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    #site1 {
+        width: 12.5rem;
+        margin-right: 6.25rem;
+        margin-left: 6.25rem;
+    }
+    .message h1 {
+        padding-top: 1.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .message p {
+        margin-top: -1rem;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .message .button {
+        font-size: 0.5rem;
+        margin-left: 11rem;
+    }
+    #site2 {
+        width: 12.5rem;
+        margin-right: 6.25rem;
+        margin-left: 6.25rem;
+    }
+    .message h1 {
+        padding-top: 1.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .site2 p {
+        margin-top: -10rem;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .message .button {
+        font-size: 0.5rem;
+        margin-left: 11rem;
+    }
+    /*----- CONTENT-ENDING -----*/
+
+    /*----- WORK -----*/
+  
+    /*----- END-OF-WORK -----*/
+  
+    /*----- FOOTER -----*/
+
+    .footer {
+        height: 110px;
+        margin-bottom: 0;
+    }
+    .footer p {
+        font-size: 8px;
+    }
+    .socials {
+        font-size: 10px;
+    }
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        margin: -15px 5px;
+    }
+    /*----- FOOTER-ENDING -----*/
+}
+/*----- MOBILE-ENDING -----*/
