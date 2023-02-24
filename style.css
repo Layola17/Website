@@ -113,14 +113,15 @@ body {
 
 .about {
     	background-color: rgb(255, 255, 255);
+	opacity: 0.6;
     	width: 100%;
     	margin-top: 100px;
     	padding: 15px;
 }
 .about h1 {
-    color: Blue;
-    text-align: center;
-    padding-bottom: 40px;
+	color: white;
+    	text-align: center;
+    	padding-bottom: 40px;
 }
 .about p {
     color: white;
