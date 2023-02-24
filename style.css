@@ -88,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 50px;
-    color: balck;
+    color: white;
     text-shadow: 2px 2px 8px blue;
     padding-top: 30px;
 }
@@ -118,7 +118,7 @@ body {
     	padding: 15px;
 }
 .about h1 {
-    color: white;
+    color: Blue;
     text-align: center;
     padding-bottom: 40px;
 }
