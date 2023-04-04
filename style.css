@@ -1,28 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Quicksand", sans-serif;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    	font-family: "Quicksand", sans-serif;
+    	box-sizing: border-box;
 }
 body {
 	width: 100vw;
 	height: 100vh;
 }
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 1.25rem;
-    right: 1.875rem;
-    z-index: 99;
-    font-size: 1rem;
-    border: none;
-    outline: none;
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-    padding: 0.9rem;
-    border-radius: 20px;
-    box-shadow:0px 0px 10px rgba(255, 255, 255, 0.5);  
+    	display: none;
+    	position: fixed;
+    	bottom: 1.25rem;
+    	right: 1.875rem;
+    	z-index: 99;
+    	font-size: 1rem;
+    	border: none;
+    	outline: none;
+    	background-color: blue;
+    	color: white;
+    	cursor: pointer;
+   	padding: 0.9rem;
+    	border-radius: 20px; 
 }  
 #myBtn:hover {
     background-color:rgb(150, 0, 0);
