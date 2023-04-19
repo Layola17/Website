@@ -121,26 +121,13 @@ h5{
     line-height: 27px;
     margin-bottom: 25px;
 }
-.pra img{
+.pra img:hover{
     width: auto;
     height: 230px;
     margin-bottom: 15px;
     border-radius: 15px;
-}
-.card .button{
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transition: .4s;
-}
-.card .button:hover{
-    background-color: transparent;
-    border: 2px solid blue;
     cursor: pointer;
+    transform: scale(2);
 }
 
 /*-----------------------------------------------*/
