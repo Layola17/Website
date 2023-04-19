@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events Page</title>
+    <link rel="stylesheet" href="Events_page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+<!----- HEADER ----->
+
+<div class="content">
+
+<Header>
+    <div class="nav-bar">
+        <div id="logo"><a href="index.html"><img src="./images/logo.png" alt="logo" style="height: 79px;z-index: -1;"></a></div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="Events_page.html">EVENTS</a></li>
+            <li><a id="Button" href="#" onclick="openForm()">LOG IN</a></li>
+            <li><a href="Maze_game.html">GAME</a></li>
+        </ul>
+
+    </div>
+</Header>
+
+    <!--Login form section-->
+    <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+            <form name="popupForm" action="curriculum.html" class="formContainer" onSubmit="return validateForm();" method="post">
+                <h2>Please Log in</h2>
+                <label for="email">
+                    <strong>Username</strong>
+                </label>
+                <input type="text" id="email" placeholder="Your Username" name="email">
+                <label for="psw">
+                    <strong>Password</strong>
+                </label>
+                <input type="password" id="psw" placeholder="Your Password" name="psw">
+                <button type="submit" class="btn">Log in</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function validateForm() {
+            var username = document.popupForm.email.value;
+            var password = document.popupForm.psw.value;
+            
+            if (username.length == 0 && password.length != 0)//if the username is not entered 
+            {
+                alert("Login was unsuccessful, please enter your username");
+                return false;
+            }
+            if (password.length == 0 && username.length != 0)//if the password is not entered 
+            {
+                alert("Login was unsuccessful, please enter your password");
+                return false;
+            }
+            if (username.length == 0 && password.length == 0)//if both password & username are not entered 
+            {
+                alert("Login was unsuccessful, please enter your username and Password");
+                return false;
+            }
+            if (username.length != 6)//if username do not contain 6 characters 
+            {
+                alert("Login was unsuccessful, username must contain 6 characters");
+                return false;
+            }
+            if (password.length != 6)//if password do not contain 6 characters 
+            {
+                alert("Login was unsuccessful, password must contain 6 characters");
+                return false;
+            }
+            if (isNaN(username) && username.length == 6)//if username do not contain numeric values only
+            {
+                alert("Login was unsuccessful, please enter username that contains numeric values only");
+                return false;
+            }
+            if (password.length< 4)//if password contains less than 4 characters
+            {
+                alert("Login was unsuccessfully, please enter password that contains at least 4 characters");
+                return false;
+            }
+        
+            //if (!(/^[0-9a-zA-Z\s]+/i.test(username)) && username.length != 0 )//if username do not contain numeric values only
+            //{
+            //    alert("Login was unsuccessful, please enter username that contains numeric values only");
+            //    return false;
+            //}
+            else {
+                alert("you have logged in Successfully!");
+                return true;
+            }
+        }
+    </script>
+    <!--End of Login form section-->
+
+<!----- IMAGE-CONTAINER ----->
+
+    <div class="w3-content w3-section">
+        <img class="mySlides" src="images/img1.jpg" style="width:100%">
+        <img class="mySlides" src="images/img3.jpg" style="width:100%">
+        <img class="mySlides" src="images/img4.jpg" style="width:100%">
+        <img class="mySlides" src="images/img5.jpg" style="width:100%">
+        <img class="mySlides" src="images/img6.jpg" style="width:100%">
+        <img class="mySlides" src="images/img7.jpg" style="width:100%">
+    </div>
+
+<!----- CALENDAR ----->
+
+    <div class="container">
+        <div class="calendar">
+            <div class="month">
+                <i class="fas fa-angle-left prev"></i>
+                <div class="date">
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <i class="fas fa-angle-right next"></i>
+            </div>
+            <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div class="days"></div>
+        </div>
+    </div>
+
+    <script src="Events_page.js"></script>
+
+<!----- FOOTER ----->
+
+    <footer>
+        <div class="image">
+            <img src="images/wced.png" style="height: 79px";>
+        </div>
+
+        <p>Copyright &copy; 2021, <strong>Springdale primary school</strong></p>
+
+        <div class="footer-button">
+            <button>Contact us</button>
+        </div>
+    </footer>
+
+</div>
+  </body>
+</html>
