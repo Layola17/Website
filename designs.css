@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 20px;
+}
+  
+#myBtn:hover {
+    background-color:#131313;
+    border: 2px solid blue;
+}
+/*-----------------------------------------------*/
+/*----------------- HEADER ----------------------*/
+
+.header {
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    padding-top: 45px;
+    padding-left: 8%;
+}
+span{
+    color:blue;
+}
+/*-----------------------------------------------*/
+/*----------------- NAVIGATION ------------------*/
+
+.sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+    float: right;
+    margin-top: -75px;
+}
+.sidenav a {
+    color: white;
+    padding-top: 10px;
+    padding-right: 65px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-right: -25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.sidenav :hover {
+    color: blue;
+    transition: .4s;
+}
+/*-----------------------------------------------*/
+/*----------------- WORK ------------------------*/
+
+.portfolio{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+.tittle h1{
+    color: white;
+    font-size: 2.5em;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #131313;
+    border-radius: 25px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: white;
+    font-size: 10px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.pra img{
+    width: auto;
+    height: 230px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.card .button{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------*/
+/*------------------ FOOTER ---------------------*/
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#131313;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    padding-bottom: 40px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0 3em 0;
+}
+.socials li{
+    margin: 0 15px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.5em;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: blue;
+    transform: scale(1.1);
+}
+ 
+
+
