@@ -86,15 +86,32 @@ span{
 .container1 {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 22%;
     transform: translate(-50%);
 }
 .content1 h1 {
     color: white;
     margin: 20px 0px 20px;
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
+}
+.content1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+}
+.content1 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+}
+.content1 h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 /*-----------------------------------------------*/
 /*----------------- ABOUT -----------------------*/
@@ -471,7 +488,6 @@ footer{
     color: blue;
     transform: scale(1.1);
 }
-
 /*-------------------------------------------------------------------*/
 /*------------------ RESPONSIIVE-FOR-MOBILE -------------------------*/
 
