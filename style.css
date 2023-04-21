@@ -86,7 +86,7 @@ span{
 .container1 {
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 35%;
     transform: translate(-50%);
 }
 .content1 h1 {
