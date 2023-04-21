@@ -92,26 +92,9 @@ span{
 .content1 h1 {
     color: white;
     margin: 20px 0px 20px;
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
-}
-.content1 h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 28px;
-    color: white;
-}
-.content1 h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 28px;
-    color: white;
-}
-.content1 h4 {
-    color: white;
-    letter-spacing: 2px;
-    font-size: 20px;
 }
 /*-----------------------------------------------*/
 /*----------------- ABOUT -----------------------*/
