@@ -1,0 +1,43 @@
+.container2 h2{
+    padding-top: 20px;
+}
+.container2 .fb_img{
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid rgb(155, 49, 49);
+    border-radius: 5px;
+}
+.container2 .fb_img{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*-----MOBILE-VIEW-----*/
+
+@media(max-width:400px){
+
+    .content1 h1 {
+        font-size: 30px;
+        padding-top: 130px;
+        padding-bottom: 40px;
+    }
+    .container2 h1 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .container2 h2 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}
