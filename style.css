@@ -92,26 +92,16 @@ span{
 .content1 h1 {
     color: white;
     margin: 20px 0px 20px;
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 .content1 h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 28px;
-    color: white;
-}
-.content1 h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 28px;
-    color: white;
-}
-.content1 h4 {
-    color: white;
-    letter-spacing: 2px;
+    color: blue;
+    margin: 20px 0px 20px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 /*-----------------------------------------------*/
 /*----------------- ABOUT -----------------------*/
@@ -489,11 +479,15 @@ footer{
     transform: scale(1.1);
 }
 /*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
 /*------------------ RESPONSIIVE-FOR-MOBILE -------------------------*/
+/*------------------------- HEADER ----------------------------------*/
 
 @media screen and (max-width: 400px) {
-
-/*-------------------------- HEADER ---------------------------------*/
+    
+}
 
 /*-------------------------- ABOUT ----------------------------------*/
 
@@ -502,7 +496,7 @@ footer{
 /*------------------------- CONTACT ---------------------------------*/
 
 /*------------------------- FOOTER ----------------------------------*/
-}
+
 
  
 
