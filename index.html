@@ -1,177 +1,230 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Layola Mbula</title>
 
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-<!------------------------------------------------------------------------------------------------------------------------------->
-<!-------------------------------------------------------------------------------------------------------------------------------> 
-    <body>
-<!-------------------------------------------------------HEADER------------------------------------------------------------------>
-<!-------------------------------------------------------------------------------------------------------------------------------> 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layola Mbula Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/6d3e377928.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!------------------------------------------------------------------------------------------------------->
+<!----------------------------------------- HEADER ------------------------------------------------------>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/MBL Designs.png" class="logo">
 
-        <header class="header"> 
-            <h2 class="logo">Mbula <span>Designs</span></h2>
-
-            <div id="mySidenav" class="sidenav"><!-----NAVIGATION----->
-                <a href="#container1" id="home" class="btn">Home</a>
-                <a href="#about-us" id="about" class="btn">About</a>
-                <a href="#portfolio" id="work" class="btn">Portfolio</a>
-                <a href="#skills" id="skills-content" class="btn">Skills</a>
-                <a href="#contact_us" id="contact" class="btn">Contact</a>
-            </div>
-            <div class="container1">
-                <div id="content" class="content1">
-                    <h1>Graphic Designer</h1>
-                    <h2>and</h2>
-                    <h1>A Junior Developer</h1>
-                </div>
-            <div>
-        </header>   
-
-<!--------------------------------------------------------ABOUT------------------------------------------------------------------>
-<!-------------------------------------------------------------------------------------------------------------------------------> 
-        <div class="about" id="about-us">
-            <div class="main">
-                <img src="Images/about.jpg">
-
-                <div class="about-text">
-                    <h1>About Me</h1>
-                    <h5>Graphic designer <span>& Developer</span></h5>
-
-                    <p>A young graphic designer, with a creative flair for design / illustrations
-                        and an addiction to learning more about the digital world ! I am also
-                        in persuit of becoming a systems developer, with a basic understanding
-                        of HTML, CSS, and Python. I also posses the skill of digital art, & Fine Art.
-                    </p>
-                    <a href="#contact_us"><button type="button">Lets Talk</button></a>
-                </div>
-            </div>
-        </div>
-
-<!--------------------------------------------------------WORK------------------------------------------------------------------>
-<!------------------------------------------------------------------------------------------------------------------------------> 
-        <div class="portfolio" id="portfolio">
-            <div class="tittle">
-                <h2>My Work</h2>
-            </div>
-
-            <div class="box">
-                <div class="card"><!--------FIRST-CARD--------->
-                    <h5>DESIGN</h5>
-
-                    <div class="pra">
-                        <img src="images/Design01.jpg">
-                    
-                        <p style="text-align: center;">
-                            <a class="button" href="designs.html">View More</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="card"><!--------SECOND-CARD--------->
-                    <h5>WEB DEVELOPMENT</h5>
-
-                    <div class="pra">
-                        <img src="images/Web01.jpg">
-                    
-                        <p style="text-align: center;">
-                            <a class="button" href="websites.html">View More</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="card"><!--------THIRD-CARD--------->
-                    <h5>ILLUSTRATIONS</h5>
-
-                    <div class="pra">
-                        <img src="images/Illustration.jpg">
-                
-                        <p style="text-align: center;">
-                            <a class="button" href="illustrations.html">View More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!--------------------------------------SKILLS--------------------------------------------->
-<!-----------------------------------------------------------------------------------------> 
-        <div class="skills-content" id="skills">
-            <div class="heading1">
-                <h1>My Skills</h1>
-            </div>
-
-            <div class="skills">
-
-                <h2>ILLUSTRATOR</h2>
-                <div class="progress-bar"><!-----BAR-1----->
-                    <div class="illustrator"><span>85%</span></div>
-                </div>
-                <h2>PHOTOSHOP</h2>
-                <div class="progress-bar"><!-----BAR-2----->
-                    <div class="photoshop"><span>80%</span></div>
-                </div>
-                <h2>AFTER-EFFECTS</h2>
-                <div class="progress-bar"><!-----BAR-3----->
-                    <div class="after_effects"><span>75%</span></div>
-                </div>
-                <h2>HTML</h2>
-                <div class="progress-bar"><!-----BAR-4----->
-                    <div class="html"><span>90%</span></div>
-                </div>
-                <h2>CSS</h2>
-                <div class="progress-bar"><!-----BAR-5----->
-                    <div class="css"><span>75%</span></div>
-                </div>
-                <h2>PYTHON</h2>
-                <div class="progress-bar"><!-----BAR-6----->
-                    <div class="python"><span>60%</span></div>
-                </div>
-            </div>
-        </div>
-<!-------------------------------------CONTACT--------------------------------------------->
-<!-----------------------------------------------------------------------------------------> 
-        <section class="contact" id="contact_us">
-            <div class="contact-form">
-                <h1>Contact <span>Us</span></h1>
-                <p>Connect with me via cell phone: 0818711906<br> 
-                or email me: lozambula@gmail.com</p>
-
-                <form action="">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" name="email" id="" placeholder="Your E-mail" required>
-                    <textarea name="" id="" cols="20" rows="10" placeholder="Your Message" required></textarea>
-                    <input type="submit" name="" value="Submit" class="btn">
-                </form>
-            </div>
-
-            <div class="contact-img">
-                <img src="images/BG.jpg">
-            </div>
-        </section>
-
-<!------------------------------------FOOTER-------------------------------------------->
-<!--------------------------------------------------------------------------------------> 
-        <footer>
-            <div class="footer-content">
-                <ul class="socials">
-                    <li><a href="https://www.linkedin.com/in/layola-mbula-7384851aa" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://instagram.com/mbuladesigns?igshid=1m8lwkgn47q5y" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.facebook.com/Layolalozza/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
-
-                <p>copyright &copy; 2021, Mbula Designs by Layola Mbula</p>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h1>Hi, I'm Layola Mbula</h1>
             </div>
-        </footer>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------>
+<!------------------------------------------ ABOUT ----------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A young graphic designer, with a creative flair for design / illustrations
+                         and an addiction to learning more about the digital world ! I am also in 
+                         persuit of becoming a systems developer, with a basic understanding of HTML, 
+                         CSS, and Python. I also posses the skill of digital art, & Fine Art.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Design</span><br>Communication Design and Identity design</li>
+                            <li><span>Web Development</span><br>Designing and developing websites</li>
+                            <li><span>Digital Artist</span><br>Illustration of characters and people</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UVU Africa (01 March 2023 - 31 March 2023)</span><br> - Invoice management <br>- SCM Assistant <br>- Designing the bill of material</li>
+                            <li><span>Busymed (14 March 2022 - 24 February 2023)</span><br>- Business Analyst<br> - Identity Design (Logo, Banners, Flyer design)<br>
+                                - Social media content management (Facebook, Instagram, LinkedIn)<br> - Character illustrations,<br>- Video Editing.</li>
+                            <li><span>CapaCiTi (13 September 2021 - 11 March 2022)</span><br>Certified in Systems development <br>- Web and App Development (websites, calculator, and Bank transaction calculator) <br>- Programming (HTML, CSS, Python) <br>- Also learned job critical skills and communication around the workplace.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Central University of Technology</span><br>Communication Design and Identity design</li>
+                            <li><span>Copies 4 Africa</span><br>Learning Graphic design, T-shirt printing and Printing on Caps and mugs</li>
+                            <li><span>Ngubengcuka S.S.S</span><br>High School From 2013 - 2015</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------->
+<!----------------------------------------- SERVICES ---------------------------------------------------->
 
-        <script src="style.js"></script>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
 
-    </body>
+            <div class="work-list">
+                <div class="work"><!-----------IMAGE-ONE------------>
+                    <img src="images/design_images/Mbula's Catering_03.jpg" alt="image">
 
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p>Here you will be seeing more of my graphic design work</p>
+                        <a href="designs.html"><i class="fa-solid fa-pen-nib"></i></a>
+                    </div>
+                </div>
+                <div class="work"><!-----------IMAGE-TWO------------>
+                    <img src="images/web_images/Web01.jpg" alt="image">
 
+                    <div class="layer">
+                        <h3>Web Dev</h3>
+                        <p>This will showcase some of my web development skills</p>
+                        <a href="web_dev.html"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                </div>
+                <div class="work"><!-----------IMAGE-THREE------------>
+                    <img src="images/digital_art_images/Illustration.jpg" alt="image">
+
+                    <div class="layer">
+                        <h3>Digital Art</h3>
+                        <p>Check out some of my illustrations and digital art</p>
+                        <a href="digital_art.html"><i class="fa-solid fa-bezier-curve"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------->
+<!------------------------------------------ SKILLS ----------------------------------------------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+
+            <div class="skills-content">
+                
+                <div class="skills-col-1"><!----------COLUMN-ONE---------->
+                    <h2 class="heading2">Software Skills</h2>
+
+                    <div class="skills">
+                        <h2>Illustrator</h2>
+                        <div class="progress-bar"><!-----BAR-1----->
+                            <div class="illustrator"><span>85%</span></div>
+                        </div>
+                        <h2>Photoshop</h2>
+                        <div class="progress-bar"><!-----BAR-2----->
+                            <div class="photoshop"><span>80%</span></div>
+                        </div>
+                        <h2>After Effects</h2>
+                        <div class="progress-bar"><!-----BAR-3----->
+                            <div class="after_effects"><span>70%</span></div>
+                        </div>
+                        <h2>Premiere Pro</h2>
+                        <div class="progress-bar"><!-----BAR-4----->
+                            <div class="premiere_pro"><span>75%</span></div>
+                        </div>
+                        <h2>In Design</h2>
+                        <div class="progress-bar"><!-----BAR-5----->
+                            <div class="in_design"><span>60%</span></div>
+                        </div>
+                        <h2>Corel Draw</h2>
+                        <div class="progress-bar"><!-----BAR-6----->
+                            <div class="corel_draw"><span>70%</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-col-2"><!----------COLUMN-TWO---------->
+                    <h2 class="heading2">General Skills</h2>
+
+                    <div class="skills">
+                        <h2>Computer literate</h2>
+                        <div class="progress-bar"><!-----BAR-1----->
+                            <div class="Computer_literate"><span>90%</span></div>
+                        </div>
+                        <h2>Punctuality</h2>
+                        <div class="progress-bar"><!-----BAR-2----->
+                            <div class="Punctuality"><span>80%</span></div>
+                        </div>
+                        <h2>Attention to detail</h2>
+                        <div class="progress-bar"><!-----BAR-3----->
+                            <div class="Attention_to_detail"><span>85%</span></div>
+                        </div>
+                        <h2>Communication skills</h2>
+                        <div class="progress-bar"><!-----BAR-4----->
+                            <div class="Communication_skills"><span>75%</span></div>
+                        </div>
+                        <h2>Professionalism</h2>
+                        <div class="progress-bar"><!-----BAR-5----->
+                            <div class="Professionalism"><span>80%</span></div>
+                        </div>
+                        <h2>Time management</h2>
+                        <div class="progress-bar"><!-----BAR-6----->
+                            <div class="Time_management"><span>85%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------->
+<!----------------------------------------- CONTACT ----------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> lozambula@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>081 871 1906</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/layola-mbula-7384851aa" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/mbuladesigns?igshid=1m8lwkgn47q5y" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/Layolalozza/?ref=page_internal" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Layola Mbula CV.pdf" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------------------------------->
+<!----------------------------------------- FOOTER ------------------------------------------------------>
+
+        <div class="copyright">
+            <p>copyright &copy; 2021, Mbula Designs by Layola Mbula</p>
+        </div>
+    </div>
+
+    <script src="style.js"></script>
+</body>
+</html>
