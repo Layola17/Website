@@ -97,19 +97,20 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 .layer a{
+    width: 80px;
+    height: 30px;
     margin-top: 20px;
     color: blue;
     text-decoration: none;
-    font-size: 16px;
-    line-height: 60px;
+    font-size: 14px;
     background: #fff;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
     text-align: center;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: bold;
 }
 .work:hover img{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .work:hover .layer{
     height: 100%;
