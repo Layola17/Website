@@ -66,7 +66,7 @@ nav ul li a:hover::after{
 }
 /*--------------- ABOUT ----------------*/
 /*--------------------------------------*/
-.container{
+.Mainbox{
     display: flex;
 }
 .box{
