@@ -66,8 +66,10 @@ nav ul li a:hover::after{
 }
 /*--------------- ABOUT ----------------*/
 /*--------------------------------------*/
-.box{
+.container{
     display: flex;
+}
+.box{
     height: 200px;
     width: 200px;
     background-color: #305CDE;
