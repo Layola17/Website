@@ -82,7 +82,7 @@ nav ul li a:hover::after{
 .about-image {
   flex: 1;
   min-width: 280px;
-  text-align: center;
+  text-align: left;
 }
 .about-image img {
   width: 100%;
