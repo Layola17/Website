@@ -72,11 +72,10 @@ nav ul li a:hover::after{
 .box{
     height: 200px;
     width: 200px;
-    background-color: #305CDE;
     font-size: 40pt;
 }
 .box p{
-    font-size: 12pt;
+    font-size: 16pt;
     text-color: #fff;
 }
 /*--------------- SERVICES -------------*/
